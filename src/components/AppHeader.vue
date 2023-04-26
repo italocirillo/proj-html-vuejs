@@ -131,6 +131,7 @@ export default {
                 height: 2rem;
                 font-size: 1rem;
                 border-radius: 5px;
+                box-shadow: 3px 5px 5px rgb(116, 116, 116);
 
                 i {
                     color: $text-color-active;
