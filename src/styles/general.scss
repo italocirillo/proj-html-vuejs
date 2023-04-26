@@ -1,5 +1,5 @@
 @import "bootstrap/scss/bootstrap";
-@import "../../node_modules/@fontsource/fredoka/variable-full.css";
+@import "../../node_modules/@fontsource/nunito/latin.css";
 
 * {
     padding: 0;
@@ -11,6 +11,14 @@ img {
     max-width: 100%;
 }
 
+button {
+    border-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
 body {
-    font-family: "Fredoka", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
