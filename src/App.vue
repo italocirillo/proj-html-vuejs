@@ -95,14 +95,15 @@ i {
     background-color: white;
     color: $text-color-active;
     border: 2px solid $text-color-active;
+    padding: 0.4em 0.9em;
   }
 }
 
 .bottone-vuoto {
   background-color: white;
-  border: 1px solid $text-color-active;
+  border: 2px solid $text-color-active;
   color: $text-color-active;
-  padding: 0.48em 1em;
+  padding: 0.4em 0.9em;
   border-radius: 5px;
   box-shadow: 4px 4px 10px black;
   font-weight: 700;
