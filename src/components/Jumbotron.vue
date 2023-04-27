@@ -69,7 +69,10 @@ export default {
 
         &:hover {
             background-color: $text-color-active;
-            color: white;
+
+            i {
+                color: white;
+            }
         }
     }
 

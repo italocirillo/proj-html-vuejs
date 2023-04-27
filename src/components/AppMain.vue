@@ -12,8 +12,10 @@ export default {
 </script>
 
 <template>
-    <Jumbotron :affiliati="affiliati" />
-    <SezionePrezzi />
+    <main>
+        <Jumbotron :affiliati="affiliati" />
+        <SezionePrezzi />
+    </main>
 </template>
 
 <style lang="scss" scoped></style>
