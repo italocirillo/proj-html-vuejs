@@ -22,9 +22,9 @@ export default {
             <div class="row align-items-start">
                 <div class="col">
                     <div class="info">
-                        <button class="bottone-semplice">
+                        <span class="etichetta">
                             Development
-                        </button>
+                        </span>
                         <h1>A Complete Developer Toolset</h1>
                         <p>Launch your campaign and benedit from our expertise on designing and managing conversion centered
                             bootstrap4 html page.
@@ -76,13 +76,13 @@ export default {
     .container {
 
         img {
-            width: 80%;
+            width: 90%;
         }
 
         .info {
             padding: 4em 0em;
 
-            .bottone-semplice {
+            .etichetta {
                 background-color: $background-button;
                 color: $text-color-active;
                 padding: 0.3em 1em;
@@ -98,9 +98,7 @@ export default {
             }
 
             p {
-                color: $text-color-light;
                 font-weight: 700;
-                font-size: 1rem;
                 padding: 1.2em 0em;
             }
         }

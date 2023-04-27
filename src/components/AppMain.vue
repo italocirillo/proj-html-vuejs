@@ -1,46 +1,19 @@
 <script>
 import Jumbotron from './Jumbotron.vue';
+import SezionePrezzi from './SezionePrezzi.vue';
 
 export default {
     name: "AppMain",
-    components: { Jumbotron },
-    data() {
-        return {
-            affiliati: [
-                {
-                    url: "amazon.svg",
-                    name: "amazon",
-                },
-                {
-                    url: "google.svg",
-                    name: "google",
-                },
-                {
-                    url: "lenovo.svg",
-                    name: "lenovo",
-                },
-                {
-                    url: "paypal.svg",
-                    name: "paypal",
-                },
-                {
-                    url: "shopify.svg",
-                    name: "shopify",
-                },
-                {
-                    url: "spotify.svg",
-                    name: "spotify",
-                },
-            ]
-        }
+    components: { Jumbotron, SezionePrezzi },
+    props: {
+        affiliati: Array,
     }
 }
 </script>
 
 <template>
-    <main>
-        <Jumbotron :affiliati="affiliati" />
-    </main>
+    <Jumbotron :affiliati="affiliati" />
+    <SezionePrezzi />
 </template>
 
 <style lang="scss" scoped></style>

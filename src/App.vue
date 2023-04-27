@@ -7,6 +7,32 @@ export default {
   data() {
     return {
       elementiHeader: ["Home", "Landing", "Pages", "Docs"],
+      affiliati: [
+        {
+          url: "amazon.svg",
+          name: "amazon",
+        },
+        {
+          url: "google.svg",
+          name: "google",
+        },
+        {
+          url: "lenovo.svg",
+          name: "lenovo",
+        },
+        {
+          url: "paypal.svg",
+          name: "paypal",
+        },
+        {
+          url: "shopify.svg",
+          name: "shopify",
+        },
+        {
+          url: "spotify.svg",
+          name: "spotify",
+        },
+      ]
     }
   }
 }
@@ -14,7 +40,7 @@ export default {
 
 <template>
   <AppHeader :arrayHeader="elementiHeader" />
-  <AppMain />
+  <AppMain :affiliati="affiliati" />
 </template>
 
 <style lang="scss">
@@ -23,6 +49,16 @@ export default {
 
 .container {
   width: 80%;
+}
+
+p {
+  color: $text-color-light;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+i {
+  color: $text-color-active;
 }
 
 .bottoni-icone {
@@ -36,10 +72,6 @@ export default {
   font-size: 1rem;
   border-radius: 5px;
   box-shadow: 3px 5px 5px rgb(116, 116, 116);
-
-  i {
-    color: $text-color-active;
-  }
 
   &:hover {
     background-color: $text-color-active;
