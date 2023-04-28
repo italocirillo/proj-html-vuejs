@@ -33,7 +33,31 @@ export default {
           url: "spotify.svg",
           name: "spotify",
         },
-      ]
+      ],
+      company: ["About us", "Services", "Team", "Pricing", "Project", "Careers", "Blog", "Login"],
+      usefullLinks: ["Terms of Services", "Privacy Policy", "Documentation", "Changelog", "Component"],
+      carteDiCredito: [
+        {
+          url: "american-ex.png",
+          name: "american-ex",
+        },
+        {
+          url: "discover.png",
+          name: "discover",
+        },
+        {
+          url: "master-card.png",
+          name: "master-card",
+        },
+        {
+          url: "paypal.png",
+          name: "paypal",
+        },
+        {
+          url: "visa.png",
+          name: "visa",
+        },
+      ],
     }
   }
 }
@@ -42,7 +66,7 @@ export default {
 <template>
   <AppHeader :arrayHeader="elementiHeader" />
   <AppMain :affiliati="affiliati" />
-  <AppFooter />
+  <AppFooter :company="company" :usefullLinks="usefullLinks" :carteDiCredito="carteDiCredito" />
 </template>
 
 <style lang="scss">
