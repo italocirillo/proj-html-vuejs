@@ -44,6 +44,7 @@ export default {
         background-color: #3b4858;
         width: 50%;
         margin: 0 auto;
+        border-radius: 10px;
 
         ul {
             background-color: #4f5a69;
