@@ -13,7 +13,7 @@ export default {
     <section class="sezione-prezzi py-3">
         <div class="container">
             <div class="intestazione py-3">
-                <Titolo :titolo="'Our rates for developer from Landrick team'" />
+                <Titolo :titolo="'Our rates for developer from Landrick team'" class="p-1" />
             </div>
             <div class="row">
                 <div class="col">
