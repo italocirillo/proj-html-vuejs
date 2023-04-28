@@ -95,6 +95,7 @@ footer {
     background-color: #202942;
     color: white;
     padding-top: 4em;
+    margin-top: 4em;
 
     ul {
         padding: 0em;

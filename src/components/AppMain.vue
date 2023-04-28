@@ -1,10 +1,11 @@
 <script>
 import Jumbotron from './Jumbotron.vue';
+import Features from './Features.vue';
 import SezionePrezzi from './SezionePrezzi.vue';
 
 export default {
     name: "AppMain",
-    components: { Jumbotron, SezionePrezzi },
+    components: { Jumbotron, Features, SezionePrezzi, },
     props: {
         affiliati: Array,
     }
@@ -14,6 +15,7 @@ export default {
 <template>
     <main>
         <Jumbotron :affiliati="affiliati" />
+        <Features />
         <SezionePrezzi />
     </main>
 </template>

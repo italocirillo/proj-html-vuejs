@@ -80,6 +80,7 @@ export default {
 
         img {
             width: 90%;
+            padding-bottom: 2em;
         }
 
         .info {

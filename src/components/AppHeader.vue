@@ -56,7 +56,7 @@ export default {
                                 <ul class="navbar-nav">
                                     <li class="nav-item d-flex align-items-center gap-2">
                                         <input v-if="search === true" type="search" class="rounded w-100"
-                                            placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                                            placeholder="Ricerca" aria-label="Search" aria-describedby="search-addon" />
                                         <i class="fa-solid fa-magnifying-glass" @click="search = !search"></i>
                                     </li>
                                     <li class="nav-item">
@@ -100,6 +100,11 @@ header {
     z-index: 10;
 
     .container {
+        padding-right: 0em;
+
+        .container-fluid {
+            padding-right: 0em;
+        }
 
         .logo {
             width: 80%;
@@ -108,6 +113,7 @@ header {
 
         nav {
             padding: 1em;
+            padding-right: 0em;
             color: $text-color;
 
             i {
